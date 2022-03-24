@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.nodePath": "./node_modules",
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": ["typescript"],
+  "files.associations": {
+    ".env": "ini",
+    ".env.sample": "ini"
+  },
+  "typescript.format.enable": false,
+  "typescript.validate.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
